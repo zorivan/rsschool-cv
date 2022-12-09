@@ -1,1 +1,1 @@
-# rsschool-cv
+https://zorivan.github.io/rsschool-cv/cv
