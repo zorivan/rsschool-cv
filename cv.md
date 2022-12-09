@@ -1,14 +1,14 @@
-#Ivan Zorin
+# Ivan Zorin
 ![me](./photo.jpg)
-###Contacts
+### Contacts
 - **Telegram:** t.me/bravedeveloper
 - **E-mail:** bravedeveloper@gmail.com
 - **Github:** github.com/zorivan
 
-###Summary
+### Summary
 I've worked as a web developer in the past. Now I want to return to work after a long absence. I'm motivated, goal-oriented and self-starter.
 
-###Skills
+### Skills
 **Programming languages:** JavaScript/CoffeeScript, PHP, Java
 **Libraries & frameworks:** jQuery, Backbone.js, Chaplin.js, Ionic 3, Yii2, Laravel 5.x
 **Version control systems:** Git, Mercurial
@@ -17,8 +17,8 @@ I've worked as a web developer in the past. Now I want to return to work after a
 **Database management systems:** MySQL, MSSQL
 **Other:** HTML5/CSS3, Twitter Bootstrap, UIkit, Linux (Fedora, Centos), Apache, GIMP
 
-###Code example
-```javascript
+### Code example
+```js
 function narcissistic(value) {
   let sum = 0;
   const length = value.toString().length;
@@ -42,9 +42,9 @@ I’ve worked on such projects as
 - POS system
 - Kids gps tracker
 
-###Education
+### Education
 Udmurt State University (*Master's Degree in Applied Mathematics and Computer Science*)
 
-###Languages
+### Languages
 - Russian (Native)
 - English (Pre-Intermediate)
