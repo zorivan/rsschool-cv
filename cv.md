@@ -35,7 +35,7 @@ function narcissistic(value) {
 
 ```
 
-###Work experience
+### Work experience
 I’ve worked on such projects as
 - Taxi dispatch software
 - Call center software
