@@ -9,13 +9,13 @@
 I've worked as a web developer in the past. Now I want to return to work after a long absence. I'm motivated, goal-oriented and self-starter.
 
 ### Skills
-**Programming languages:** JavaScript/CoffeeScript, PHP, Java
-**Libraries & frameworks:** jQuery, Backbone.js, Chaplin.js, Ionic 3, Yii2, Laravel 5.x
-**Version control systems:** Git, Mercurial
-**IDE:** VS Code, NetBeans
-**Bug/issue tracking systems:** Redmine
-**Database management systems:** MySQL, MSSQL
-**Other:** HTML5/CSS3, Twitter Bootstrap, UIkit, Linux (Fedora, Centos), Apache, GIMP
+- **Programming languages:** JavaScript/CoffeeScript, PHP, Java
+- **Libraries & frameworks:** jQuery, Backbone.js, Chaplin.js, Ionic 3, Yii2, Laravel 5.x
+- **Version control systems:** Git, Mercurial
+- **IDE:** VS Code, NetBeans
+- **Bug/issue tracking systems:** Redmine
+- **Database management systems:** MySQL, MSSQL
+- **Other:** HTML5/CSS3, Twitter Bootstrap, UIkit, Linux (Fedora, Centos), Apache, GIMP
 
 ### Code example
 ```js
