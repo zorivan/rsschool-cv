@@ -6,6 +6,20 @@ h2 {
     color: gray;
 }
 
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .photo {
     float: left;
     margin-right: 10px;
@@ -28,4 +42,14 @@ h2 {
 
 .nav-link:hover {
     cursor: pointer;
+}
+
+footer .container {
+    display: flex;
+    font-size: 20px;
+}
+
+footer .container > * {
+    flex-grow: 1;
+    text-align: center;
 }
