@@ -1,5 +1,23 @@
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url(./assets/fonts/RobotoSlab-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url(./assets/fonts/RobotoSlab-SemiBold.ttf);
+    font-weight: 600;
+}
+
 * {
     box-sizing: border-box;
+    font-family: 'Roboto Slab', "Times New Roman", serif;
+    font-weight: 400;
+}
+
+a {
+    color: #347890;
 }
 
 h2 {
@@ -12,21 +30,71 @@ ul {
 
 body {
     min-height: 100vh;
-    margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    line-height: 1.5;
 }
 
 .container {
-    max-width: 1440px;
+    max-width: 980px;
     margin: 0 auto;
 }
 
-.photo {
-    float: left;
-    margin-right: 10px;
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header-container h1,
+.header-container h2,
+.header-container ul {
+    margin: 0;
+}
+
+.header-container img {
+    width: 130px;
+    padding-right: 10px;
+}
+
+.header-container section {
+    flex-grow: 1;
+}
+
+pre {
+    background-color: #347890;
+    border-radius: 15px;
+    color: #fff;
+}
+
+b, .section-title span {
+    font-weight: 600;
+}
+
+h2.section-title {
+    position: relative;
+}
+
+h2.section-title span {
+    z-index: 1;
+    position: relative;
+    display: inline-block;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0 0.5em 0 0;
+}
+
+h2.section-title::after {
+    content: '';
+    z-index: 0;
+    position: absolute;
+    display: block;
+    left: 1em;
+    right: 0;
+    top: 0.85em;
+    border-bottom: 1px solid gray;
 }
 
 .nav-list {
