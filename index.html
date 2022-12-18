@@ -28,7 +28,82 @@
         </div>
     </header>
     <main>
-        <div class="container"></div>
+        <div class="container">
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <ul>
+                    <li>- <b>Telegram:</b> <a href="https://t.me/bravedeveloper">@bravedeveloper</a></li>
+                    <li>- <b>E-mail:</b> <a href="mailto:bravedeveloper@gmail.com">bravedeveloper@gmail.com</a></li>
+                    <li>- <b>Github:</b> <a href="https://github.com/zorivan">zorivan</a></li>
+                </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>I've worked as a web developer in the past. Now I want to return to work after a long absence. I'm motivated, goal-oriented and self-starter.</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>- <b>Programming languages:</b> JavaScript/CoffeeScript, PHP, Java</li>
+                    <li>- <b>Libraries & frameworks:</b> jQuery, Backbone.js, Chaplin.js, Ionic 3, Yii2, Laravel 5.x</li>
+                    <li>- <b>Version control systems:</b> Git, Mercurial</li>
+                    <li>- <b>IDE:</b> VS Code, NetBeans</li>
+                    <li>- <b>Bug/issue tracking systems:</b> Redmine</li>
+                    <li>- <b>Database management systems:</b> MySQL, MSSQL</li>
+                    <li>- <b>Other:</b> HTML5/CSS3, Twitter Bootstrap, UIkit, Linux (Fedora, Centos), Apache, GIMP</li>
+                </ul>
+            </section>
+            <section class="section" id="code-example">
+                <h2 class="section-title">Code example</h2>
+                <pre>
+                    <code>
+                        function narcissistic(value) {
+                            let sum = 0;
+                            const length = value.toString().length;
+                            const originalValue = value;
+                            
+                            while (value) {
+                            let digit = value % 10;
+                            sum += Math.pow(digit, length);
+                            value = Math.trunc(value / 10);
+                            }
+                            
+                            return (sum === originalValue) ? true : false; 
+                        }
+                        
+                    </code>
+                </pre>
+            </section>
+            <section class="section" id="work-experience">
+                <h2 class="section-title">Work experience</h2>
+                <p>I’ve worked on such projects as</p>
+                <ul>
+                    <li>
+                        - Taxi dispatch software
+                    </li>
+                    <li>
+                        - Call center software
+                    </li>
+                    <li>
+                        - POS system
+                    </li>
+                    <li>
+                        - Kids gps tracker
+                    </li>
+                </ul>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>Udmurt State University (<i>Master's Degree in Applied Mathematics and Computer Science</i>)</p>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul>
+                    <li>- Russian (Native)</li>
+                    <li>- English (Pre-Intermediate)</li>
+                </ul>
+            </section>
+        </div>
     </main>
     <footer>
         <div class="container">

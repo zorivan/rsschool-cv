@@ -6,6 +6,10 @@ h2 {
     color: gray;
 }
 
+ul {
+    list-style: none;
+}
+
 body {
     min-height: 100vh;
     margin: 0;
@@ -27,7 +31,7 @@ body {
 
 .nav-list {
     display: flex;
-    list-style: none;
+    flex-wrap: wrap;
     padding-left: 0;
 }
 
