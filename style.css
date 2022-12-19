@@ -31,6 +31,7 @@ ul {
 body {
     min-height: 100vh;
     padding: 0;
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,6 +41,10 @@ body {
 .container {
     max-width: 980px;
     margin: 0 auto;
+}
+
+header {
+    padding-top: 10px;
 }
 
 .header-container {
@@ -69,7 +74,7 @@ pre {
     color: #fff;
 }
 
-b, .section-title span {
+b, h1, .section-title span {
     font-weight: 600;
 }
 
@@ -110,6 +115,7 @@ h2.section-title::after {
 .nav-link {
     line-height: 50px;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .nav-link:hover {
@@ -118,7 +124,10 @@ h2.section-title::after {
 
 footer .container {
     display: flex;
-    font-size: 20px;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #347890;
+    border-radius: 15px 15px 0 0;
 }
 
 footer .container > * {
