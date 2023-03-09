@@ -1,5 +1,5 @@
 # Ivan Zorin
-![me](./photo.jpg)
+![me](./assets/img/photo.jpg)
 ### Contacts
 - **Telegram:** t.me/bravedeveloper
 - **E-mail:** bravedeveloper@gmail.com
@@ -23,14 +23,14 @@ function narcissistic(value) {
   let sum = 0;
   const length = value.toString().length;
   const originalValue = value;
-  
+
   while (value) {
     let digit = value % 10;
     sum += Math.pow(digit, length);
     value = Math.trunc(value / 10);
   }
-  
-  return (sum === originalValue) ? true : false; 
+
+  return (sum === originalValue) ? true : false;
 }
 
 ```
